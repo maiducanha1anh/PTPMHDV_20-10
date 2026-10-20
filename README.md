@@ -174,5 +174,3 @@ Dưới đây là bảng tổng hợp số liệu đo đạc thực tế từ c�
    - Mỗi lệnh thanh toán có một `Idempotency-Key` duy nhất gắn với `paymentId`.
    - Ngân hàng lưu giao dịch ngay khi trừ tiền thành công. Khi nhận lại cùng khóa và cùng dữ liệu, ngân hàng trả lại ngay giao dịch cũ mà **không trừ tiền thêm lần nữa**.
    - Trong kịch bản `DROP_RATE=0.3`, kết quả 60 PAID xuất phát từ việc nhận lại giao dịch đã lưu bằng cùng Idempotency-Key, số lần thu tiền thực tế `charges` đúng bằng 60 và số lần thu trùng `duplicates` luôn bằng **0**.
-#   P T P M H D V _ 2 0 - 1 0  
- 

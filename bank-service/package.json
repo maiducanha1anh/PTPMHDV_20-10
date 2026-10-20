@@ -1,0 +1,12 @@
+{
+  "name": "bank-service",
+  "version": "1.0.0",
+  "description": "Mock Bank Service for Lab 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
